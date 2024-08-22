@@ -2,15 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-22T13:59:19 BDT" name="Default suite" finished-at="2024-08-22T13:59:38 BDT" duration-ms="18344">
+  <suite started-at="2024-08-22T16:40:23 BDT" name="Default suite" finished-at="2024-08-22T16:41:00 BDT" duration-ms="37427">
     <groups>
     </groups>
-    <test started-at="2024-08-22T13:59:19 BDT" name="Default test" finished-at="2024-08-22T13:59:38 BDT" duration-ms="18344">
+    <test started-at="2024-08-22T16:40:23 BDT" name="Default test" finished-at="2024-08-22T16:41:00 BDT" duration-ms="37427">
       <class name="org.test.AppTest">
-        <test-method signature="testGeneraleStoreAPK()[pri:0, instance:org.test.AppTest@78e4deb0]" started-at="2024-08-22T13:59:19 BDT" name="testGeneraleStoreAPK" finished-at="2024-08-22T13:59:38 BDT" duration-ms="18276" status="PASS">
+        <test-method is-config="true" signature="statApplication()[pri:0, instance:org.test.AppTest@239a307b]" started-at="2024-08-22T16:40:23 BDT" name="statApplication" finished-at="2024-08-22T16:40:31 BDT" duration-ms="8148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statApplication -->
+        <test-method signature="testGeneraleStoreAPK()[pri:0, instance:org.test.AppTest@239a307b]" started-at="2024-08-22T16:40:31 BDT" name="testGeneraleStoreAPK" finished-at="2024-08-22T16:40:59 BDT" duration-ms="28679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGeneraleStoreAPK -->
+        <test-method is-config="true" signature="quiteApplication()[pri:0, instance:org.test.AppTest@239a307b]" started-at="2024-08-22T16:40:59 BDT" name="quiteApplication" finished-at="2024-08-22T16:41:00 BDT" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteApplication -->
       </class> <!-- org.test.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

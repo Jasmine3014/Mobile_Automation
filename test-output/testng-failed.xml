@@ -5,7 +5,9 @@
     <classes>
       <class name="org.test.AppTest">
         <methods>
+          <include name="quiteApplication"/>
           <include name="testGeneraleStoreAPK"/>
+          <include name="statApplication"/>
         </methods>
       </class> <!-- org.test.AppTest -->
     </classes>
